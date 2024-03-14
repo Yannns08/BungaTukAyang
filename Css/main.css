@@ -20,7 +20,23 @@ body {
   border-radius:50%;
   background-color:pink;
   opacity:0;
-  animation:fade 5s case-in-out infinite;}
+  animation:fade 5s ease-in-out infinite;}
+
+@keyframes bloom {
+  0%{
+    transform: translateY(100vh);
+  }
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: scale(2);
+  }
+}
+@keyframes bloom{
+  0%{
+    transform:translateY
+    
 
 
 
