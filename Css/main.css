@@ -35,7 +35,26 @@ body {
 }
 @keyframes bloom{
   0%{
-    transform:translateY
+    transform:translateY(100vh);
+  }
+  50%{
+    transform:translateY(0);
+  }
+  100%{
+    transform:scale(2);
+  }
+}
+@keyframes fade{
+  0%{
+    opacity:0;
+  }
+  50%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}
     
 
 
